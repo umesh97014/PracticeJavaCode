@@ -1,0 +1,25 @@
+package myproject;
+
+public class creatingArrayTable20 {
+
+	public static void main(String[] args) {
+		// Creating an array table
+		
+		System.out.println("Index\tValue");
+		
+		int num[] = {8, 2, 18, 21};
+		
+		for (int i = 0; i < num.length; i++) {
+			System.out.println(i + "\t" + num[i]);
+		}
+		System.out.println("==========================================");
+		
+double num1[] = {8, 2, 18, 21};
+		
+		for (int i = 0; i < num.length; i++) {
+			System.out.println(i + "\t" + num1[i]);
+		}
+
+	}
+
+}

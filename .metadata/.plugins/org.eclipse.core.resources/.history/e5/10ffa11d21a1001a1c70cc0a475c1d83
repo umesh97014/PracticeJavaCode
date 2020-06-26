@@ -1,0 +1,12 @@
+package myproject;
+
+public class constructors {
+
+	public static void main(String[] args) {
+		// Constructors - Refer 'student' class
+		student stu1 = new student1("Akarsh Kumar");
+		stu1.saying();
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package OopsConceptPart2;
+
+public class HSBCBank implements USBank{
+	
+	public void credit() {
+		System.out.println("HSBC---credit");
+	}
+
+}

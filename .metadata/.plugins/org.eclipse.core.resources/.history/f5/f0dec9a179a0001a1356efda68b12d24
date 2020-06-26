@@ -1,0 +1,12 @@
+package myproject;
+
+public class strings23 {
+
+	public static void main(String[] args) {
+		// Strings
+		String str = "Hello World";
+		System.out.println(str);
+
+	}
+
+}

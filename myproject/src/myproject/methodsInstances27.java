@@ -1,0 +1,38 @@
+package myproject;
+
+public class methodsInstances27 {
+
+	public static void main(String[] args) {
+		// Methods & Instances - Refer class 'student'
+		student stu1 = new student();
+		stu1.id = 1;
+		stu1.name = "Umesh Kumar";
+		stu1.age = 11;
+		
+		System.out.println(stu1.name + " is " + stu1.age + " years old");
+		
+		student stu2 = new student();
+		stu2.id = 2;
+		stu2.name = "Akshay Kumar";
+		stu2.age = 10;
+		
+		System.out.println(stu2.name + " is " + stu2.age + " years old");
+		
+		//Get getters and setters from eclipse source - Refer class 'student'
+		student stu3 = new student();
+		stu3.setId(3);
+		stu3.setName("Rajesh Kumar");
+		stu3.setAge(9);
+		
+		System.out.println(stu3.getName() + " is " + stu3.getAge() + " years old");
+		
+		student stu4 = new student();
+		stu4.setId(4);
+		stu4.setName("Satish Kumar");
+		stu4.setAge(10);
+		
+		System.out.println(stu4.getName() + " is " + stu4.getAge() + " years old");
+
+	}
+
+}

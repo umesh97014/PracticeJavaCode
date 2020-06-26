@@ -1,0 +1,32 @@
+package ListConcept;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+		
+		//int i[] = new int[4];//we donot use static array--because size is fixed
+		//dynamic array--ArrayList
+		//it can contain duplicate values/elements
+		//it inserts the value in ordering
+		ArrayList ar = new ArrayList();
+		
+		ar.add(10);//0
+		ar.add(20);//1
+		ar.add(30);//2
+		
+		System.out.println(ar.size());
+		
+		ar.add("Tom");//3
+		ar.add(40);//4
+		ar.add('U');//5
+		ar.add(45.35);//6
+		ar.add(40);//7
+		
+		System.out.println(ar.size());
+		System.out.println(ar.get(5));
+
+	}
+
+}

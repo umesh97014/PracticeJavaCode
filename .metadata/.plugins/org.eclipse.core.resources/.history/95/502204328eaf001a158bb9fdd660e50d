@@ -1,0 +1,9 @@
+package com.qurate.day1;
+
+public class QurateProgram {
+	
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+
+}

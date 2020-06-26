@@ -1,0 +1,16 @@
+package myproject;
+
+public class doWhileLoop17 {
+
+	public static void main(String[] args) {
+		// Do While Loop
+		int counter = 0;
+		
+		do {
+			System.out.println(counter);
+			counter++;			
+		}while (counter < 10);				
+
+	}
+
+}

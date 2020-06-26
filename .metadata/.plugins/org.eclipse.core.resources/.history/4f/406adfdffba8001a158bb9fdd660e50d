@@ -1,0 +1,15 @@
+package OopsConceptPart2;
+
+public class BMW extends Car{
+	
+	//method overriding
+	public void start() {
+		System.out.println("BMW---Start");
+	}
+	
+	public void theftsafety() {
+		System.out.println("BMW---theftsafety");
+		
+	}
+
+}

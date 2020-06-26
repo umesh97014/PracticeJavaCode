@@ -1,0 +1,13 @@
+package myproject;
+
+public class forLoop18 {
+
+	public static void main(String[] args) {
+		// For Loop
+		for (int counter = 0; counter < 10; counter++) {
+			System.out.println(counter);
+		}
+
+	}
+
+}

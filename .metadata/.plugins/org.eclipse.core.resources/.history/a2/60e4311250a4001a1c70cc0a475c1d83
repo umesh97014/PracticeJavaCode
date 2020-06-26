@@ -1,0 +1,23 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+public class testCase1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// In order to create any test case(class) - need to create driver object for IE browser
+		//https://www.selenium.dev/selenium/docs/api/java/index.html
+		
+		//selenium code-
+		//we will strictly implement methods for IE browser
+		/*Class name = InternetExplorerDriver
+		x driver = new.x();*/
+		//invoke .exe file first
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\umekumar2\\eclipse-workspace\\automationpractice\\src\\main\\resources\\geckodriver.exe");
+		WebDriver driver = new InternetExplorerDriver();
+		driver.get("http://google.com");
+        System.out.println(driver.getTitle());
+
+	}
+
+}

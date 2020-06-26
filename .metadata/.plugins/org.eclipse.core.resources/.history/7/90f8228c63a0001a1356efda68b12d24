@@ -1,0 +1,16 @@
+package myproject;
+
+public class conditionalOperator13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int age = 28;
+		System.out.println(age > 50 ? "You are old" : "You are young");
+		
+		int age1 = 52;
+		System.out.println(age1 > 50 ? "You are old" : "You are young");
+
+	}
+
+}

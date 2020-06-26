@@ -1,0 +1,25 @@
+package OopsConceptPart1;
+
+public class WrapperClassConcept {
+
+	public static void main(String[] args) {
+		
+		//how to convert the string into integer
+		String x = "100";
+		System.out.println(x+20);
+		
+		//data conversion: string to integer
+		int i = Integer.parseInt(x);
+		System.out.println(i);
+		System.out.println(i+20);
+		
+		//Integer, Double, Character, Boolean
+	    //String to double conversion:	
+	    String y = "12.33";
+	    double d = Double.parseDouble(y);
+	    System.out.println(d+20);
+	
+
+	}
+
+}

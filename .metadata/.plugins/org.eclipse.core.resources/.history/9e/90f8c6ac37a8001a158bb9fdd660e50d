@@ -1,0 +1,12 @@
+package OopsConceptPart1;
+
+public class LocalVsGlobalVariables {
+    //global variables-->class variables
+	String name = "Tom";
+	int age = 25;
+	public static void main(String[] args) {
+		
+
+	}
+
+}

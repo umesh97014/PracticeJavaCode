@@ -1,0 +1,19 @@
+package myproject;
+
+public class introArrays19 {
+
+	public static void main(String[] args) {
+		// Arrays
+		
+		int num[] = new int[4];
+		
+		num[0] = 45;
+		num[1] = 499;
+		num[2] = 376;
+		num[3] = 5555;
+		
+		System.out.println(num[1]);
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package myproject;
+
+public class methodsInstances27 {
+
+	public static void main(String[] args) {
+		// Methods & Instances - Refer class 'student'
+		student stu1 = new student();
+		stu1.id = 1;
+		stu1.name = "Umesh Kumar";
+		stu1.age = 11;
+		
+		System.out.println(stu1.name + " is " + stu1.age + " years old");
+		
+		student stu2 = new student();
+		stu2.id = 2;
+		stu2.name = "Akshay Kumar";
+		stu2.age = 10;
+		
+		System.out.println(stu2.name + " is " + stu2.age + " years old");
+
+	}
+
+}

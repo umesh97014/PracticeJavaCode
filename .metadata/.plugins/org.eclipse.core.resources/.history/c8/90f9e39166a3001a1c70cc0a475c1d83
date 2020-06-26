@@ -1,0 +1,46 @@
+package automationpractice;
+
+import org.openqa.selenium.By;  
+import org.openqa.selenium.JavascriptExecutor;  
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;  
+
+public class SeleniumTutorial {
+      public  static void main(String[] args) {
+    	// TODO Auto-generated method stub
+          // System Property for Chrome Driver   
+    	  String path = System.getProperty("user.dir");
+//    	  String otherFolder = path;
+
+    	     System.setProperty("webdriver.chrome.driver", path + "\\src\\main\\resources\\chromedriver.exe");  
+    	       
+    	          // Instantiate a ChromeDriver class.     
+    	     WebDriver driver=new ChromeDriver();  
+    	       
+    	        // Launch Website  
+//    	     
+    	       
+    	      //Maximize the browser  
+    	       driver.manage().window().maximize();
+    	       driver.get("https://www.google.com");  
+    	     //locate Elements
+    	       
+    	       WebElement idElement = driver.findElement(By.id("FOQCCXS4_search-location"));
+    	       WebElement nameElement = driver.findElement(By.name("destinationAddress.destination"));
+    	       WebElement cssElement = driver.findElement(By.cssSelector("#FOQCCXS4_search-location"));
+    	       WebElement xPathElement = driver.findElement(By.xpath("//input[@id='FOQCCXS4_search-location']"));
+    	       
+
+    	       
+    	       //DataProvider - 
+    	       
+    	       
+    	       
+    	       //Report
+    	       
+    	       return;
+
+
+	}
+}

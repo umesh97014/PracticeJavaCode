@@ -1,0 +1,24 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class testCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// In order to create any test case(class) - need to create driver object for Firefox browser
+				//https://www.selenium.dev/selenium/docs/api/java/index.html
+				
+				//selenium code-
+				//we will strictly implement methods for Firefox browser
+				/*Class name = FirefoxDriver
+				x driver = new.x();*/
+				//invoke .exe file first
+				System.setProperty("webdriver.gecko.driver", "C:\\Users\\umekumar2\\eclipse-workspace\\automationpractice\\src\\main\\resources\\geckodriver.exe");
+				WebDriver driver = new FirefoxDriver();
+				driver.get("http://google.com");
+		        System.out.println(driver.getTitle());
+	    	}
+
+}

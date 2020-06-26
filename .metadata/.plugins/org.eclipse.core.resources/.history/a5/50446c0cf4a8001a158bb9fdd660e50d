@@ -1,0 +1,15 @@
+package OopsConceptPart1;
+
+public class CallByValueAndCallByRef {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public void testSum(int a, int b) {
+		int c = a+b;
+		return c;
+	}
+
+}

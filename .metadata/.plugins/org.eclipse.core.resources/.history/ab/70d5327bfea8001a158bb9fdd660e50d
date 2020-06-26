@@ -1,0 +1,25 @@
+package OopsConceptPart2;
+
+public class TestCar {
+
+	public static void main(String[] args) {
+		
+		//static polymorphism -- compile time polymorphism
+		BMW b = new BMW();
+		b.start();//overirdden
+		b.stop();//Inherit from parent class
+		b.refuel();//Inherit from parent class
+		b.theftsafety();//
+		
+		System.out.println("********************");
+		Car c = new Car();
+		c.start();
+		c.stop();
+        c.refuel();
+        
+        System.out.println("************************");
+        
+
+	}
+
+}

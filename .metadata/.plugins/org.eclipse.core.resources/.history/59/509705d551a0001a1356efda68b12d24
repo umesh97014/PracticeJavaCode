@@ -1,0 +1,16 @@
+package myproject;
+
+public class Applet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	int i;
+	i=10;
+	System.out.println("The value of x is ");
+	System.out.print(i);
+	
+
+	}
+
+}

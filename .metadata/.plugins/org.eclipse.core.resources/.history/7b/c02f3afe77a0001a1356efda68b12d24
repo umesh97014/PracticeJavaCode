@@ -1,0 +1,11 @@
+package myproject;
+
+public class generateRandomNumber22 {
+
+	public static void main(String[] args) {
+		// How to generate random number
+		
+
+	}
+
+}

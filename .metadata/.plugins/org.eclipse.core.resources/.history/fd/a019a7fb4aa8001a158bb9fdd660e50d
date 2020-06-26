@@ -1,0 +1,17 @@
+package OopsConceptPart1;
+
+public class WrapperClassConcept {
+
+	public static void main(String[] args) {
+		
+		//how to convert the string into integer
+		String x = "100";
+		System.out.println(x+20);
+		
+		int i = Integer.parseInt(x);
+		System.out.println(i);
+		System.out.println(i+20);
+
+	}
+
+}

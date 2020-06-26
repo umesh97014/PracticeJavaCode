@@ -1,0 +1,10 @@
+package OopsConceptPart1;
+
+public class StaticAndNonStaticConcept {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

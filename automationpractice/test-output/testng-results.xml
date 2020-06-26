@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="automationpractice" duration-ms="41" started-at="2020-05-08T00:57:24 IST" finished-at="2020-05-08T00:57:24 IST">
+    <groups>
+    </groups>
+    <test name="testngTest" duration-ms="41" started-at="2020-05-08T00:57:24 IST" finished-at="2020-05-08T00:57:24 IST">
+      <class name="automationpractice.Tutorial">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:automationpractice.Tutorial@7b49cea0]" name="beforeTest" is-config="true" duration-ms="19" started-at="2020-05-08T00:57:24 IST" finished-at="2020-05-08T00:57:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:automationpractice.Tutorial@7b49cea0]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-05-08T00:57:24 IST" finished-at="2020-05-08T00:57:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:automationpractice.Tutorial@7b49cea0]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-05-08T00:57:24 IST" finished-at="2020-05-08T00:57:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- automationpractice.Tutorial -->
+    </test> <!-- testngTest -->
+  </suite> <!-- automationpractice -->
+</testng-results>

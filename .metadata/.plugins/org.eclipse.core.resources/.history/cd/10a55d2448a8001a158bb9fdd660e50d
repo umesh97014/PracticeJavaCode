@@ -1,0 +1,13 @@
+package OopsConceptPart1;
+
+public class StaticAndNonStaticConcept {
+	String name = "Tom";//non static global variable
+	static int age = 25;//static global variable
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

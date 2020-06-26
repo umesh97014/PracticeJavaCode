@@ -1,0 +1,21 @@
+package myproject;
+
+import java.util.Scanner;
+
+public class usingMultipleClasses25 {
+
+	public static void main(String[] args) {
+		// Using multiple classes - Refer class: myClass25
+		myClass25 myClassObject = new myClass25();
+		myClassObject.message();
+		myClassObject.message1();
+		
+		// To input the 'name' via scanner
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter your name? ");
+		String name = scan.nextLine();
+		myClassObject.message2();
+
+	}
+
+}

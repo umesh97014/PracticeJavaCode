@@ -1,0 +1,15 @@
+
+public class demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// In order to create any test case(class) - need to create driver object for chrome browser
+		//https://www.selenium.dev/selenium/docs/api/java/index.html
+		
+		//selenium code-
+		//we will strictly implement methods for chrome browser
+		//
+
+	}
+
+}

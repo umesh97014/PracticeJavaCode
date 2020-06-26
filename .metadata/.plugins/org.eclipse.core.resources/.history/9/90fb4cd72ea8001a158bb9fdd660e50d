@@ -1,0 +1,17 @@
+package OopsConceptPart1;
+
+public class FunctionsInJava {
+
+	public static void main(String[] args) {
+		
+
+	}
+	//non static methods
+	public void test() {
+		System.out.println("test method");
+	}
+    
+	public void pqr() {
+		System.out.println("pqr method");
+	}
+}

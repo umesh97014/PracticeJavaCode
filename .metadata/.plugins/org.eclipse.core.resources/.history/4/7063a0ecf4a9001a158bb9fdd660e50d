@@ -1,0 +1,20 @@
+package ListConcept;
+
+import java.util.LinkedList;
+
+public class LinkedListConcept {
+
+	public static void main(String[] args) {
+		
+		LinkedList<String> ll = new LinkedList<String>();
+		//add
+		ll.add("Test");
+		ll.add("QTP");
+		ll.add("Selenium");
+		ll.add("RPA");
+		ll.add("RFP");
+		System.out.println("Content of LinkedList: " + ll);
+
+	}
+
+}

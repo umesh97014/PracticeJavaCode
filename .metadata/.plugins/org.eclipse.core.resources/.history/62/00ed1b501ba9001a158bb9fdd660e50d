@@ -1,0 +1,12 @@
+package ListConcept;
+
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+		
+		int i[] = new int[4];//we donot use static array--because size is fixed
+		
+
+	}
+
+}

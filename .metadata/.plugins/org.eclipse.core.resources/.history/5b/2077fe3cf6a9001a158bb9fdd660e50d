@@ -1,0 +1,42 @@
+package ListConcept;
+
+import java.util.LinkedList;
+
+public class LinkedListConcept {
+
+	public static void main(String[] args) {
+		
+		LinkedList<String> ll = new LinkedList<String>();
+		//add
+		ll.add("Test");
+		ll.add("QTP");
+		ll.add("Selenium");
+		ll.add("RPA");
+		ll.add("RFP");
+		//print
+		System.out.println("Content of LinkedList: " + ll);
+		
+		//add First:
+		ll.addFirst("Naveen");
+		
+		//add Last:
+		ll.addLast("Umesh");
+		
+		//print
+		System.out.println("Content of LinkedList: " + ll);
+		
+		//get:
+		System.out.println(ll.get(0));
+		
+		//set:
+		ll.set(0, "Automation");
+		System.out.println(ll.get(0));
+		
+		//remove first and last element
+		ll.removeFirst();
+		ll.removeLast();
+		System.out.println("Content of LinkedList: " + ll);
+
+	}
+
+}

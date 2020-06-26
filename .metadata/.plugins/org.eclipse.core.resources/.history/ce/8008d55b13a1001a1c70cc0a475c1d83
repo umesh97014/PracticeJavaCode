@@ -1,0 +1,12 @@
+package myproject;
+
+public class usingMultipleClasses25 {
+
+	public static void main(String[] args) {
+		// Using multiple classes - Refer class: myClass25
+		myClass25 myClassObject = new myClass25();
+		myClassObject.message();
+
+	}
+
+}

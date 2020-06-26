@@ -1,0 +1,15 @@
+package myproject;
+
+public class myClass25 {
+
+	public void message() {
+		System.out.println("This is a new class.");
+
+	}
+	
+	public void message1() {
+		System.out.println("This is a old class.");
+
+	}
+
+}

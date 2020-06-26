@@ -1,0 +1,21 @@
+package ListConcept;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+		
+		//int i[] = new int[4];//we donot use static array--because size is fixed
+		//dynamic array--ArrayList
+		ArrayList ar = new ArrayList();
+		
+		ar.add(10);
+		ar.add(20);
+		ar.add(30);
+		
+		System.out.println(ar.size());
+
+	}
+
+}

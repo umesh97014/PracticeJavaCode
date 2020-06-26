@@ -1,0 +1,25 @@
+package OopsConceptPart1;
+
+public class StaticAndNonStaticConcept {
+	String name = "Tom";//non static global variable
+	static int age = 25;//static global variable
+
+	public static void main(String[] args) {
+		//how to call static methods and variables?
+		//1.direct calling:
+		sum();
+		//calling by className:
+		StaticAndNonStaticConcept.sum();
+		
+
+	}
+	
+	public void sendmail() {
+		System.out.println("send mail method");
+	}
+	
+	public static void sum() {//static method
+		System.out.println("Sum method");
+	}
+
+}

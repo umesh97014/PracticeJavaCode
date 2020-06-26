@@ -1,0 +1,11 @@
+package OopsConceptPart1;
+
+public class FunctionsInJava {
+
+	public static void main(String[] args) {
+		
+
+	}
+	//non static methods
+
+}

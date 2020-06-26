@@ -1,0 +1,18 @@
+package OopsConceptPart1;
+
+public class CallByValueAndCallByRef {
+
+	public static void main(String[] args) {
+		CallByValueAndCallByRef obj = new CallByValueAndCallByRef();
+		x = 10;
+		y = 20;
+		obj.testSum(x, y);
+
+	}
+	
+	public int testSum(int a, int b) {
+		int c = a+b;
+		return c;
+	}
+
+}

@@ -1,0 +1,17 @@
+package practiceJAVA;
+
+import org.openqa.selenium.By;
+
+public class locatorsXpathCss31 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		driver.get("http://facebook.com");//hit url on the browser
+		driver.findElement(By.id("email")).sendKeys("This is my first code");
+		driver.findElement(By.name("pass")).sendKeys("12345");
+		driver.findElement(By.linkText("Forgotten account?")).click();
+//		driver.close();
+
+	}
+
+}
