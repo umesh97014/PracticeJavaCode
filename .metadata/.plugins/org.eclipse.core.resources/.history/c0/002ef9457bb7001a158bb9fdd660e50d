@@ -48,7 +48,7 @@ public class ArrayListConcept {
 		//to allow only string value
 		ArrayList<String> ar2 = new ArrayList<String>();
 		ar2.add("Tom");
-		ar2.add("M");
+		ar2.add('M');
 		
 	}
 
